@@ -4,7 +4,7 @@ arr = [int(x) for x in input().split(" ")]
 num_swaps = 0
 
 for i in range(n):
-    for j in range(n - 1):
+    for j in range(n - 1-i):
         if arr[j] > arr[j + 1]:
             tmp = arr[j]
             arr[j] = arr[j + 1]

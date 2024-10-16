@@ -11,7 +11,7 @@ class Solution
         int numSwaps = 0;
         for (int i = 0; i < a; i++)
         {
-            for (int j = 0; j < a - 1; j++)
+            for (int j = 0; j < a - i - 1; j++)
             {
                 if (arr[j] > arr[j + 1])
                 {
